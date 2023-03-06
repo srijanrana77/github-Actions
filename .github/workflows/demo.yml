@@ -19,7 +19,8 @@ jobs:
   comment-with-Actions:
       runs-on: ubuntu-latest
       steps:
-        - name: new comment
         - run: echo "new comment"
+        - name: new comment
+          uses: actions/checkout@v3
     
     
